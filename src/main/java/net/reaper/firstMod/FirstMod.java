@@ -60,6 +60,10 @@ public class FirstMod
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(moditem.KILLUA);
             event.accept(moditem.MOH);
+            event.accept(moditem.RONIN);
+            event.accept(moditem.HAISEN);
+            event.accept(moditem.ABO);
+            event.accept(moditem.REAPER);
         }
 
 

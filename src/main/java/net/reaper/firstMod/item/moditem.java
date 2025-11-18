@@ -17,6 +17,14 @@ public class moditem {
 
     public static final RegistryObject<Item> MOH =  ITEMS.register("moh", () -> new Item(new Item.Properties( )));
 
+    public static final RegistryObject<Item> RONIN =  ITEMS.register("ron", () -> new Item(new Item.Properties( )));
+
+    public static final RegistryObject<Item> HAISEN =  ITEMS.register("hai", () -> new Item(new Item.Properties( )));
+
+    public static final RegistryObject<Item> ABO =  ITEMS.register("abo", () -> new Item(new Item.Properties( )));
+
+    public static final RegistryObject<Item> REAPER =  ITEMS.register("reaper", () -> new Item(new Item.Properties( )));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
